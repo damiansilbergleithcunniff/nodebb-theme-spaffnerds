@@ -22,5 +22,5 @@
 	"acpScripts": [
 		"lib/admin.js"
 	],
-	"languages": "languages"
+	"languages": "../nodebb-theme-persona/languages"
 }
