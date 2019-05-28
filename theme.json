@@ -1,6 +1,6 @@
 {
     "id": "nodebb-theme-spaffnerds",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
+    "name": "Spaffnerds.com",
+    "description": "The standard theme for Spaffnerds.com",
     "url": "https://github.com/nodebb/nodebb-theme-spaffnerds"
 }
