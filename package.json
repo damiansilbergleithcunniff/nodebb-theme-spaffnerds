@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "The theme for Spaffnerds.com",
   "main": "theme.less",
-  "keywords": [
-
-  ],
+  "keywords": [],
   "license": "MIT"
 }
