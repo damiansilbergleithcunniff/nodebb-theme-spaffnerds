@@ -1,4 +1,4 @@
-# spaffnerds Theme for NodeBB
+# Quickstart Theme for NodeBB
 
 This repository contains all of the preparatory work for a theme based off of the [Persona theme](https://github.com/NodeBB/nodebb-theme-persona). If you'd like to base your theme off another supported theme instead, switch to the appropriate branch:
 
@@ -10,7 +10,7 @@ Fork it to create your own theme based off of it!
 
 ### Some things to change
 
-* You should rename this theme from `spaffnerds` to something else. Change all instances of that word in the following files:
+* You should rename this theme from `quickstart` to something else. Change all instances of that word in the following files:
     * `package.json`
     * `plugin.json`
     * `theme.json`

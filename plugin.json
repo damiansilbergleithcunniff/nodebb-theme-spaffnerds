@@ -1,26 +1,19 @@
 {
-	"id": "nodebb-theme-spaffnerds",
+	"id": "nodebb-theme-quickstart",
 	"library": "./lib/theme.js",
 	"hooks": [
-		{ "hook": "filter:teasers.get", "method": "getTeasers" },
-		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
-		{ "hook": "filter:config.get", "method": "getThemeConfig" },
-		{ "hook": "static:app.load", "method": "init" },
-		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
-		{ "hook": "filter:topic.build", "method": "addUserToTopic" }
+		{
+			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
+		}
 	],
 	"scripts": [
-		"lib/persona.js",
 		"lib/client.js",
+		"../nodebb-theme-persona/lib/persona.js",
 		"../nodebb-theme-persona/lib/modules/nprogress.js",
 		"../nodebb-theme-persona/lib/modules/autohidingnavbar.min.js",
 		"../nodebb-theme-persona/lib/modules/quickreply.js"
 	],
 	"modules": {
 		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"
-	},
-	"acpScripts": [
-		"lib/admin.js"
-	],
-	"languages": "../nodebb-theme-persona/languages"
+	}
 }

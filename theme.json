@@ -1,6 +1,6 @@
 {
-    "id": "nodebb-theme-spaffnerds",
-    "name": "Spaffnerds.com",
-    "description": "The standard theme for Spaffnerds.com",
-    "url": "https://github.com/nodebb/nodebb-theme-spaffnerds"
+    "id": "nodebb-theme-quickstart",
+    "name": "My Theme Name",
+    "description": "Enter a description here",
+    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
 }

@@ -1,8 +1,10 @@
 {
-  "name": "nodebb-theme-spaffnerds",
-  "version": "1.0.0",
-  "description": "The theme for Spaffnerds.com",
+  "name": "nodebb-theme-quickstart",
+  "version": "0.0.0",
+  "description": "Enter a description here",
   "main": "theme.less",
-  "keywords": [],
+  "keywords": [
+
+  ],
   "license": "MIT"
 }
