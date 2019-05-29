@@ -1,0 +1,22 @@
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  #spaffnerds-backlink { display: block; }  /* show it on small screens */
+  .spaffnerds-link { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 426px) and (max-width: 9999999px) {
+  #spaffnerds-backlink { display: none; }   /* hide it elsewhere */
+  .spaffnerds-link { display: block; }  /* show it on small screens */
+  .content.newsText { font-size: large; }
+}
+
+#chat-close-btn {
+  color: black;
+}
+
+[component="topic/reply/container"] .btn.dropdown-toggle {
+  display: none;
+}
+
+.group-label {
+  margin-right: 5px;
+}
